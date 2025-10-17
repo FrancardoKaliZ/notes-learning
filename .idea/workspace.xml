@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6bf48c-be12-4c5a-a3c9-6637bd41891c" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/1-fundamentos/operaciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-control-Flujo/If-Elseif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundamentos/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-fundamentos/variables-inputs-Typecasting.py" afterDir="false" />
+    <list default="true" id="3e6bf48c-be12-4c5a-a3c9-6637bd41891c" name="Changes" comment="ordenado por carpeta por tema">
+      <change afterPath="$PROJECT_DIR$/1-fundamentos/indexing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-fundamentos/operadores-logicos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-control-Flujo/loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tipos-de-datos/string-formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tipos-de-datos/strings-methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-control-Flujo/If-Elseif.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-control-Flujo/If-Elseif-ternario.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +33,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "FrancardoKaliZ"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FrancardoKaliZ&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FrancardoKaliZ/notes-learning.git",
-    "accountId": "4b196458-c4f1-443e-862d-96b95c03518d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FrancardoKaliZ/notes-learning.git&quot;,
+    &quot;accountId&quot;: &quot;4b196458-c4f1-443e-862d-96b95c03518d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="34AwK0gAKkog2zEsM04GSxMcIb0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +56,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.loops.executor": "Run",
+    "Python.string-formatting.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -84,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760669616252</updated>
-      <workItem from="1760669617318" duration="505000" />
+      <workItem from="1760669617318" duration="881000" />
+      <workItem from="1760706265753" duration="12254000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -94,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760669771947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ordenado por carpeta por tema">
+      <option name="closed" value="true" />
+      <created>1760670355529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760670355529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +128,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="ordenado por carpeta por tema" />
+    <option name="LAST_COMMIT_MESSAGE" value="ordenado por carpeta por tema" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/note_learning$string_formatting.coverage" NAME="string-formatting Coverage Results" MODIFIED="1760714255322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tipos-de-datos" />
+    <SUITE FILE_PATH="coverage/note_learning$loops.coverage" NAME="loops Coverage Results" MODIFIED="1760715107027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-control-Flujo" />
   </component>
 </project>
