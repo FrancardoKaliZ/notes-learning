@@ -46,3 +46,12 @@ for x in range(1,22):
         break # -->
     else:
         print(x)
+
+
+#Nested loop!!!
+#     --> Es basicamente un loop dentro de otro loop 
+
+for x in range(3):
+    for y in range(1,10):
+        print(y,end="-")
+    print()
