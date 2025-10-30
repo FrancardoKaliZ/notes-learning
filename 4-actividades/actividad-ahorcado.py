@@ -120,10 +120,8 @@ def ronda(palabra, adivinador):
         return -1  
 
 def main():
-    puntosJ1 = 0
-    puntosJ2 = 0
     seguir = True
-
+    global puntosJ1,puntosJ2 #Con esto uso las variables globales ( gracias chatgptx2 )
     while seguir:
         print("\n")
         print("********************************")
