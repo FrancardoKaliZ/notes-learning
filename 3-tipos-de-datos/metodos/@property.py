@@ -46,10 +46,10 @@ class Rectangulo:
         print("La base fue borrada")
 
     def __str__(self): 
-        return f"rectangulo de altura {self.altura} con base {self.base}" #Utilizo los atributos del getter        
+        return f"rectangulo de altura {self.altura} con base {self.base}" #Utilizo los atributos del getter para mostrar el objeto( printearlo )        
     
 rectangulo1 = Rectangulo(4,6)
-print(rectangulo1.altura)
-rectangulo1.base = 22
-del rectangulo1.altura
+print(rectangulo1.altura) #--> Getter
+rectangulo1.base = 22 #--> Setter
+del rectangulo1.altura #--> Deleter
 print(rectangulo1)
